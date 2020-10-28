@@ -28,7 +28,6 @@ spring:
         data: classpath:/sql/data.sql
         driver-class-name: org.postgresql.Driver
         password: '123'
-        platform: postgresql
         schema: classpath:/sql/schema.sql
         url: jdbc:postgresql://localhost/oauth?verifyServerCertificate=false&useSSL=false&requireSSL=false
         username: vini
